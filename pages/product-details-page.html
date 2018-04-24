@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Rubikas | Product Page</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon" type="img/ico" href="../images/favicon.ico">
+  <script src="../common/patternbot.js"></script>
+</head>
+<body>
+
+  <script type="application/json" data-pattern="header/header"></script>
+
+  <main class="pad-t-2 pad-b-2">
+    <section class="grid island">
+      <div class="unit xs-1 s-1 m-1 l-3-4 xl-3-4">
+        <script type="application/json" data-pattern="card/icon-card">
+          {
+            "h3": "Party Cubes",
+            "span": "$19.99",
+            "dd:nth-child(4)": "12345678910",
+            "p": "Ever since the original magic cube was created, many creators have been inspired by it and are always able to come up with a more innovative shaped cube. Now of course, not all cubes found in our store in itself can be consituted as a cube. For a cube is a symmetrical three-dimensional shape contained by six equal squares. However, you can drop the cube, but they will always be magical."
+          }
+        </script>
+      </div>
+      <div class="unit xs-1 s-1 m-1 l-1-4 xl-1-4">
+        <div class="filter gutter pad-t pad-b">
+          <div class="filter-section">
+            <div class="filter-price">
+              <div class="filter-section-title pad-t">
+                <legend class="pad-t-1-2 pad-b-1-2 bold tera gutter">Popular Sell</legend>
+              </div>
+                <div class="popular-scroll">
+                  <script type="application/json" data-pattern="card/popular-sell">
+                    {
+                      "img[src]":"../images/three-by-three-by-three.jpg",
+                      "h3": "3x3x3",
+                      "span": "$14.99"
+                    }
+                  </script>
+                  <script type="application/json" data-pattern="card/popular-sell">
+                    {
+                      "img[src]":"../images/pyramid-rubik.jpg",
+                      "h3": "Pyramid Rubik",
+                      "span": "$14.99"
+                    }
+                  </script>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script type="application/json" data-pattern="footer/footer"></script>
+
+
+
+</body>
+</html>
