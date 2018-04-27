@@ -20,7 +20,7 @@ html {
   background-color: var(--color-secondary-light);
 }
 
-.basic-card-link p {
+.basic-card-link-product {
   color: var(--color-accent);
 }
 
